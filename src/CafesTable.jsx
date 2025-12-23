@@ -37,7 +37,7 @@ const CafesTable = () => {
       <ul className="cardsList">
         {filteredCafes.map(cafe => (
           <li className="card" key={cafe.id}>
-            <img src={cafe.img || 'https://via.placeholder.com/150'} alt="" />
+            <img src={cafe.img || 'https://imgholder.ru/150'} alt="" />
             <h2>{cafe.name}</h2>
             <p>{cafe.desc}</p>
             <p>{cafe.address}</p>
